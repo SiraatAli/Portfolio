@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siraat Ali — Front-End Developer & QA Tester</title>
+    <meta
+      name="description"
+      content="Portfolio of Siraat Ali, Front-End Developer and Manual QA Tester."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <!-- ===== NAV ===== -->
+    <header class="site-header" id="site-header">
+      <div class="wrap header-inner">
+        <a href="#home" class="logo">Siraat Ali</a>
+
+        <nav class="main-nav" id="main-nav" aria-label="Primary">
+          <ul>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#resume" class="nav-link">Resume</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <a href="#contact" class="btn btn-primary btn-small header-cta"
+          >Contact me</a
+        >
+
+        <button
+          class="nav-toggle"
+          id="nav-toggle"
+          aria-expanded="false"
+          aria-controls="main-nav"
+          aria-label="Toggle navigation menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ===== HERO ===== -->
+      <section class="hero" id="home">
+        <div class="wrap hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Hi, I'm Siraat 👋</p>
+            <h1 class="hero-title">Front-End Developer &amp; QA Tester</h1>
+            <p class="hero-summary">
+              A recent Computer Science graduate who enjoys building clean,
+              user-friendly interfaces and making sure they actually work. I
+              combine front-end development skills with a QA tester's eye for
+              detail.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View my work</a>
+              <a href="resume.pdf" class="btn btn-outline" download
+                >Download resume</a
+              >
+            </div>
+          </div>
+
+          <div class="hero-portrait">
+            <img
+              src="https://ui-avatars.com/api/?name=Siraat+Ali&background=4F46E5&color=fff&size=400&font-size=0.35&bold=true"
+              alt="Portrait of Siraat Ali"
+              width="320"
+              height="320"
+              loading="eager"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== ABOUT ===== -->
+      <section class="section" id="about">
+        <div class="wrap">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-content">
+            <p>
+              I recently graduated with a degree in Computer Science, where I
+              discovered a passion for both building web interfaces and testing
+              them thoroughly. I enjoy the balance between creating something
+              and making sure it works exactly the way it should for real users.
+            </p>
+            <!-- <p>
+              During my university studies, I focused heavily on developing my
+              skills in both frontend development and manual QA.
+            </p> -->
+            <p>
+              I have a foundational understanding of backend development
+              concepts, including REST APIs, Node.js, Express.js, and MongoDB.
+              I'm currently expanding my knowledge to become a full-stack
+              developer.
+            </p>
+            <p>
+              I'm now looking for an opportunity where I can keep growing as
+              both a developer and a tester, and contribute to a team that cares
+              about quality as much as I do.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== SKILLS ===== -->
+      <section class="section section-alt" id="skills">
+        <div class="wrap">
+          <h2 class="section-title">Skills</h2>
+
+          <div class="skills-grid">
+            <div class="skill-card">
+              <h3>Front-End Development</h3>
+              <ul class="skill-list">
+                <li>HTML5 &amp; CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>React</li>
+                <li>Responsive Design</li>
+                <li>Git &amp; GitHub</li>
+              </ul>
+            </div>
+
+            <div class="skill-card">
+              <h3>QA Testing</h3>
+              <ul class="skill-list">
+                <li>Manual Testing</li>
+                <li>Test Case Design</li>
+                <li>Bug Reporting (Jira)</li>
+                <li>Regression Testing</li>
+
+                <li>Postman (API Testing)</li>
+              </ul>
+            </div>
+            <div class="skill-card">
+              <h3>Currently Learning</h3>
+              <ul class="skill-list">
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>MongoDB</li>
+                <li>REST APIs</li>
+                <li>SQL</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== PROJECTS ===== -->
+      <section class="section" id="projects">
+        <div class="wrap">
+          <h2 class="section-title">Projects</h2>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <h3 class="project-title">Hunger Express</h3>
+              <p class="project-desc">
+                A responsive food-ordering website with restaurant browsing,
+                cart management, and a simple checkout flow.
+              </p>
+              <div class="tag-row">
+                <span class="tag">React</span
+                ><span class="tag">Tailwind CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="https://hunger-express-nu.vercel.app" class="link-btn"
+                  >Live Demo →</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card">
+              <h3 class="project-title">Pure Ghee and Honey</h3>
+              <p class="project-desc">
+                A product website for a ghee brand and honey, featuring a clean
+                layout, product catalog, and mobile-friendly checkout page.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Tailwind CSS</span
+                ><span class="tag">React</span>
+              </div>
+              <div class="project-links">
+                <a href="" class="link-btn">Live Demo →</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <h3 class="project-title">Swift sign general trading</h3>
+              <p class="project-desc">
+                create a responsive e-commerce website for a general trading
+                company.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Tailwind CSS</span
+                ><span class="tag">React</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://swift-sign-frontend.vercel.app/"
+                  class="link-btn"
+                  >Live Demo →</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== RESUME ===== -->
+      <section class="section section-alt" id="resume">
+        <div class="wrap">
+          <h2 class="section-title">Resume</h2>
+
+          <ol class="timeline">
+            <li>
+              <p class="timeline-date">2022 – 2026</p>
+              <h3>B.S in Software Engineering</h3>
+              <p class="timeline-org">
+                Islamia college and University Peshawar
+              </p>
+              <p>
+                Coursework in software engineering, web development, and
+                software testing.
+              </p>
+            </li>
+            <li>
+              <p class="timeline-date">2025-2026</p>
+              <h3>Tech team supervisor</h3>
+              <p class="timeline-org">Software synergy Club</p>
+              <p>
+                Manage all activities related to the tech team and coordinate
+                with team members.
+              </p>
+            </li>
+          </ol>
+
+          <a href="resume.pdf" class="btn btn-primary" download
+            >Download full resume (PDF)</a
+          >
+        </div>
+      </section>
+
+      <!-- ===== CONTACT ===== -->
+      <section class="section" id="contact">
+        <div class="wrap">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-lede">
+            Have an opportunity or a question? I'd love to hear from you.
+          </p>
+
+          <div class="contact-grid">
+            <div class="contact-info">
+              <a class="contact-line" href="siraatali40@gmail.com"
+                >📧 siraatali40@gmail.com</a
+              >
+              <a
+                class="contact-line"
+                href="https://www.linkedin.com/in/siraat-ali-1a6b482b0/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >💼 Siraat Ali</a
+              >
+              <a
+                class="contact-line"
+                href="https://github.com/SiraatAli"
+                target="_blank"
+                rel="noopener noreferrer"
+                >💻 Siraat Ali</a
+              >
+            </div>
+
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-row">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  autocomplete="name"
+                  required
+                />
+                <span class="field-error" id="name-error" role="alert"></span>
+              </div>
+              <div class="form-row">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  autocomplete="email"
+                  required
+                />
+                <span class="field-error" id="email-error" role="alert"></span>
+              </div>
+              <div class="form-row">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                ></textarea>
+                <span
+                  class="field-error"
+                  id="message-error"
+                  role="alert"
+                ></span>
+              </div>
+              <button type="submit" class="btn btn-primary form-submit">
+                <span class="submit-label">Send message</span>
+              </button>
+              <p
+                class="form-status"
+                id="form-status"
+                role="status"
+                aria-live="polite"
+              ></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p>&copy; <span id="year"></span> Siraat Ali. All rights reserved.</p>
+        <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+          ↑ Top
+        </button>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
